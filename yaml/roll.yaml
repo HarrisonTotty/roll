@@ -1,0 +1,5 @@
+# Example Configuration File
+# --------------------------
+
+ability_scores: >-
+  [t(h(4D6, 3)), t(h(4D6, 3)), t(h(4D6, 3)), t(h(4D6, 3)), t(h(4D6, 3)), t(h(4D6, 3))]
