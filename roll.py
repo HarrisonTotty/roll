@@ -199,6 +199,8 @@ def main():
     else:
         print(rollstr + '  ' + _c('=', C_BOLD) + '  ' + str(total))
 
+    print('')
+
 # --------------------------------------
 
 
