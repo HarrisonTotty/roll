@@ -152,7 +152,7 @@ def main():
 
     if os.path.isfile(args.config_file):
         with open(args.config_file, 'r') as f:
-            targets = yaml.load(f.read())
+            targets = yaml.safe_load(f.read())
     else:
         targets = {}
 
